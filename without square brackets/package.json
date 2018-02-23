@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.4.1",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  }
+}
