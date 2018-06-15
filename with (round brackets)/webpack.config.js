@@ -7,7 +7,10 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin([
-            {from:'from', to:'to'} 
-        ]), 
+            {
+                from: 'from',
+                to: 'to'
+            }
+        ])
     ]
-}
+};
